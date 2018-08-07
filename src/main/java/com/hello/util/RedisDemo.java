@@ -8,10 +8,10 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * redis常用api
- *
- * @author Kazz
- *
+ * Redis常用API
+ * @Title: RedisDemo
+ * @Auther: MichaelJ
+ * @Date: 2018/8/7
  */
 public class RedisDemo {
 
