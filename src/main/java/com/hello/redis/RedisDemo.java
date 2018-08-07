@@ -1,4 +1,4 @@
-package com.hello.util;
+package com.hello.redis;
 
 import redis.clients.jedis.*;
 
