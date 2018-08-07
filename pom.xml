@@ -27,5 +27,26 @@
         </dependency>
     </dependencies>
 
+    <properties>
+        <project.file.encoding>UTF-8</project.file.encoding>
+    </properties>
+
+    <build>
+        <finalName>redis</finalName>
+        <directory>${basedir}/target</directory>
+
+        <plugins>
+            <plugin>
+                <artifactId>maven-complier-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>${project.file.encoding}</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
 
 </project>

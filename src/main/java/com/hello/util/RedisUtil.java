@@ -16,6 +16,7 @@ public class RedisUtil {
     // 连接池
     private static JedisPool jedisPool = null;
 
+    // 连接池初始化
     static {
         try {
             JedisPoolConfig config = new JedisPoolConfig();
@@ -24,6 +25,7 @@ public class RedisUtil {
             config.setMaxIdle(Integer.valueOf(properties.getProperty("redis.maxIdle")));
             config.setMaxWaitMillis(Long.valueOf(properties.getProperty("redis.maxWait")));
             config.setTestOnBorrow(true);   // 在borrow一个jedis实例时，是否提前进行validate操作；如果为true，则得到的jedis实例均是可用的
+
             String host = properties.getProperty("redis.host");
             int port = Integer.valueOf(properties.getProperty("redis.port"));
             int timeout = Integer.valueOf(properties.getProperty("redis.timeout"));

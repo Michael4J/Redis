@@ -18,6 +18,7 @@ public class RedisUtilTest {
 
         Jedis jedis = RedisUtil.getJedis();
         logger.info(jedis.ping());
+        jedis.close();
     }
 
 }

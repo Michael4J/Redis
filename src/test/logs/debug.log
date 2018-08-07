@@ -1,0 +1,6 @@
+2018-08-02 20:34:49 下午 [Thread: main][ Class:com.hello.util.PropertiesUtil >> Method: com.hello.util.PropertiesUtilTest.getPropertiesTest(PropertiesUtilTest.java:20) ]
+INFO:192.168.43.128
+2018-08-02 20:34:49 下午 [Thread: main][ Class:com.hello.util.PropertiesUtil >> Method: com.hello.util.PropertiesUtilTest.getPropertiesTest(PropertiesUtilTest.java:21) ]
+DEBUG:6379
+2018-08-02 21:29:36 下午 [Thread: main][ Class:com.hello.util.RedisUtilTest >> Method: com.hello.util.RedisUtilTest.getJedisTest(RedisUtilTest.java:20) ]
+INFO:PONG
